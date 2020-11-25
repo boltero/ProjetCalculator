@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: caculator.calculatorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.075 s <<< FAILURE! - in caculator.calculatorTest
+divide(caculator.calculatorTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at caculator.calculatorTest.divide(calculatorTest.java:37)
+
+max(caculator.calculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at caculator.calculatorTest.max(calculatorTest.java:55)
+
+min(caculator.calculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at caculator.calculatorTest.min(calculatorTest.java:49)
+
+sub(caculator.calculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at caculator.calculatorTest.sub(calculatorTest.java:18)
+
+minus(caculator.calculatorTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at caculator.calculatorTest.minus(calculatorTest.java:27)
+
+multiply(caculator.calculatorTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at caculator.calculatorTest.multiply(calculatorTest.java:32)
+
