@@ -18,7 +18,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Boltero\AppData\Local\Temp\surefire7867041280013161983\surefirebooter2983885208667373869.jar C:\Users\Boltero\AppData\Local\Temp\surefire7867041280013161983 2020-11-25T15-43-01_180-jvmRun1 surefire3667374794334418292tmp surefire_02558744058675775562tmp"/>
+    <property name="sun.java.command" value="C:\Users\Boltero\AppData\Local\Temp\surefire3133194629903338509\surefirebooter438358462884642028.jar C:\Users\Boltero\AppData\Local\Temp\surefire3133194629903338509 2020-11-25T17-48-38_044-jvmRun1 surefire2652748874952746485tmp surefire_01929559395944259460tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Boltero\IdeaProjects\wordcount\ProjetCalculator\ProjetCalculator\target\test-classes;C:\Users\Boltero\IdeaProjects\wordcount\ProjetCalculator\ProjetCalculator\target\classes;C:\Users\Boltero\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Boltero\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Boltero"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Boltero\AppData\Local\Temp\surefire7867041280013161983\surefirebooter2983885208667373869.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Boltero\AppData\Local\Temp\surefire3133194629903338509\surefirebooter438358462884642028.jar;C:\\Users\\Boltero\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.6\\org.jacoco.agent-0.8.6-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\lib\resources.jar;C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\lib\rt.jar;C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\lib\jsse.jar;C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\lib\jce.jar;C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\lib\charsets.jar;C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\lib\jfr.jar;C:\Users\Boltero\Desktop\jdk1.8.0_261\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,7 +46,6 @@
     <property name="localRepository" value="C:\Users\Boltero\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Boltero\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2020.2.3"/>
     <property name="java.version" value="1.8.0_261"/>
     <property name="user.dir" value="C:\Users\Boltero\IdeaProjects\wordcount\ProjetCalculator\ProjetCalculator"/>
     <property name="os.arch" value="amd64"/>
