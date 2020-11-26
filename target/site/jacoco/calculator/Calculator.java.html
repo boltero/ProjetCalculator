@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Calculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ProjetCalculator</a> &gt; <a href="index.source.html" class="el_package">calculator</a> &gt; <span class="el_source">Calculator.java</span></div><h1>Calculator.java</h1><pre class="source lang-java linenums">package calculator;
+
+<span class="fc" id="L3">public class Calculator {</span>
+    public int sub(int a, int b){
+<span class="fc" id="L5">        return a + b ;</span>
+    }
+    public int minus(int a, int b){
+<span class="fc" id="L8">        return a - b ;</span>
+    }
+    public int multiply(int a, int b){
+<span class="fc" id="L11">        return a*b ;</span>
+    }
+    public int divide(int a, int b){
+<span class="fc" id="L14">        return a/b ;</span>
+    }
+    public int min(int a, int b){
+<span class="fc" id="L17">        return Math.min(a,b);</span>
+    }
+    public int max(int a, int b){
+<span class="fc" id="L20">        return Math.max(a,b);</span>
+    }
+
+    public int minElement(int[] list) {
+<span class="fc" id="L24">        int k = list[0];</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        for (int i = 1; i &lt; list.length; i++) {</span>
+<span class="pc bpc" id="L26" title="1 of 2 branches missed.">            if ( list[i]&lt;k) {</span>
+
+<span class="nc" id="L28">                k = list[i];</span>
+            }
+        }
+<span class="fc" id="L31">        return k;</span>
+
+    }
+    public int maxElement(int[] list){
+<span class="fc" id="L35">        int k =list[0];</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">        for(int i=1; i&lt;list.length; i++){</span>
+<span class="pc bpc" id="L37" title="1 of 2 branches missed.">            if(list[i] &gt;k){</span>
+<span class="fc" id="L38">                k=list[i];</span>
+            }
+        }
+<span class="fc" id="L41">        return k;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
